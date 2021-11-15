@@ -1,0 +1,80 @@
+/* generics */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#page-container {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+#main-header {
+	width: 100%;
+	/* da rimuovere */
+	height: 80px;
+	background-color: #e579e6;
+	
+}
+
+.block {
+	width: 100%;
+	margin: 20px auto;
+}
+
+#introduction {
+	/* da rimuovere */
+	height: 400px;
+	background-color: #e1d67a;
+
+}
+
+#table-container {
+	margin-bottom: 10px;
+	/* da rimuovere */
+	background-color: #0086fe;
+	
+}
+
+.clearfix::after {
+	content: "";
+	width: 100%;
+	display: table;
+}
+
+#mini-header {
+	width: 100%;
+	/* da rimuovere */
+	height: 60px;
+	background-color: #abcfe7;
+
+}
+
+.table {
+	float: left;
+	margin: 20px 0;
+	/* da rimuovere */
+	height: 400px;
+	background-color: #abcfe7;
+
+	padding: 0 10px;
+}
+
+.sidebar {
+	width: 25%;
+}
+
+#description {
+	width: 50%;
+	/* margin-left: 15px;
+	margin-right: 15px; */
+}
+
+footer {
+	width: 100%;
+	/* da rimuovere */
+	height: 50px;
+	background-color: #8801fe;
+	
+}
