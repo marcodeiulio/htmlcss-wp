@@ -6,6 +6,12 @@
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.clearfix::after {
+	clear: both;
+	display: table;
+	content: "";
+}
+
 .block {
 	width: 100%;
 	margin: 40px auto;
@@ -53,24 +59,35 @@ nav li:last-child {
 }
 
 
-#introduction {
+#spotlight {
 	background-image: url(../img/banner.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-
+	color: rgb(255, 255, 255);
 	filter: brightness(80%);
+}
 
-	/* da rimuovere */
-	height: 400px;
+.spotlight-article {
+	padding: 70px 50px;
+	margin-top: 250px;
+	width: 60%;
+	float: left;
+}
 
+#spotlight h2 {
+	font-size: 36px;
+	font-weight: normal;
+}
+
+#spotlight p {
+	font-size: 20px;
+	font-weight: normal;
 }
 
 #table-container {
-	margin-bottom: 10px;
-	/* da rimuovere */
-	background-color: #0086fe;
-	
+margin-bottom: 10px;
+
 }
 
 .clearfix::after {
