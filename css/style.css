@@ -1,4 +1,4 @@
-/* utilities */
+/* generics */
 
 * {
 	margin: 0;
@@ -20,7 +20,7 @@
 	margin: 20px auto;
 }
 
-#main-header {
+#secondary-header {
 	width: 100%;
 }
 
