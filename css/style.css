@@ -60,18 +60,22 @@ nav li:last-child {
 /* spotlight */
 
 #spotlight {
-	background-image: url(../img/banner.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-image: url(../img/banner.jpg);
 	filter: brightness(80%);
-}
+  }
 
 .spotlight-article {
 	padding: 70px 50px;
 	margin-top: 250px;
 	width: 60%;
 	float: left;
+}
+
+.spotlight-article h2, .spotlight-article p{
+	color: white;
 }
 
 #spotlight h2 {
@@ -92,6 +96,7 @@ margin-bottom: 10px;
 
 #secondary-header {
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 #secondary-header h1 {
@@ -105,6 +110,10 @@ margin-bottom: 10px;
 
 #secondary-header h1 {
 	font-size: 2.4em;
+}
+
+.row {
+	margin: 0 -10px;
 }
 
 .card {
