@@ -4,6 +4,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #999;
 }
 
 .clearfix::after {
@@ -63,7 +64,6 @@ nav li:last-child {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: rgb(255, 255, 255);
 	filter: brightness(80%);
 }
 
@@ -94,8 +94,11 @@ margin-bottom: 10px;
 	width: 100%;
 }
 
+#secondary-header h1 {
+	color: #333;
+}
+
 #secondary-header h4 {
-	color: #999;
 	font-weight: lighter;
 	font-size: 1.2rem;
 }
@@ -128,7 +131,6 @@ margin-bottom: 10px;
 }
 
 .card p {
-	color: #999;
 	font-size: 1.2rem;
 	font-weight: lighter;
 }
@@ -157,8 +159,11 @@ margin-bottom: 10px;
 
 footer {
 	width: 100%;
-	/* da rimuovere */
-	height: 50px;
-	background-color: #8801fe;
-	
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.heart {
+	color: red;
+	font-size: 1.2em;
 }
