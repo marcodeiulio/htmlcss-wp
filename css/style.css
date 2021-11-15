@@ -1,4 +1,4 @@
-/* generics */
+/* utilities */
 
 * {
 	margin: 0;
@@ -6,14 +6,18 @@
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-#page-container {
-	width: 1200px;
-	margin: 20px auto;
-}
-
 .block {
 	width: 100%;
 	margin: 40px auto;
+}
+
+.block, .table {
+	border-radius: 10px;
+}
+
+#page-container {
+	width: 1200px;
+	margin: 20px auto;
 }
 
 #main-header {
@@ -50,9 +54,15 @@ nav li:last-child {
 
 
 #introduction {
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	filter: brightness(80%);
+
 	/* da rimuovere */
 	height: 400px;
-	background-color: #e1d67a;
 
 }
 
