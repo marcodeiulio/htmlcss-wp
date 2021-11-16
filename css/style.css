@@ -63,8 +63,7 @@ nav li:last-child {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url(../img/banner.jpg);
-	filter: brightness(80%);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner.jpg);
   }
 
 .spotlight-article {
@@ -126,7 +125,6 @@ margin-bottom: 10px;
 	border-radius: 10px;
 	width: 100%;
 	height: 200px;
-	filter: brightness(80%);
 	margin-bottom: 20px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -153,15 +151,15 @@ margin-bottom: 10px;
 }
 
 .card-image.money {
-	background-image: url(../img/img-1.jpg);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-1.jpg);
 }
 
 .card-image.focus {
-	background-image: url(../img/banner-2.jpg);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner-2.jpg);
 }
 
 .card-image.idea {
-	background-image: url(../img/img-3.jpg);
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/img-3.jpg);
 }
 
 /* footer */
